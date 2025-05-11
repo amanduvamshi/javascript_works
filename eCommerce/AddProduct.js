@@ -13,4 +13,11 @@ updatedCart = [...updatedCart, product4];
 
 console.log(updatedCart);
 
+//Destructuring
+
+const { id, name, price } = product1;
+console.log(`Product ID: ${id}, Name: ${name}, Price: $${price}`);
+
+// Simplify bulk operations using spread operator
+
 //Note: Using the spread operator (...cart) to add items to an array creates a new array each time. While this is fine for small arrays, it could impact performance for larger arrays. Consider using Array.prototype.push if mutability is acceptable.
