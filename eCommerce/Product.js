@@ -31,7 +31,7 @@ productDetails.forEach(order => {
 
 console.log("..........................................................................."); 
 
-const productDetails2 = availableProducts.map(order => ({"product": order.product,  "qunatity":order.quantity}));
+const productDetails2 = availableProducts.map(order => ({product: order.product, quantity: order.quantity}));
 
 console.log(productDetails2);
 
